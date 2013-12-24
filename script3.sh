@@ -13,3 +13,10 @@ echo 'all digit variables:' $0 $1 $2 $3 $4 $5 ${10}
 echo '$*:' $*
 echo '$@:' $@
 echo '$$:' $$
+
+# 用set间接设置除$0之外的其他位置参数
+set learning python 
+echo '"$0"': $0
+echo '"$1"': $1
+echo '"$2"': $2
+
