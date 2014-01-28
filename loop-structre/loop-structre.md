@@ -57,3 +57,18 @@ until具体循环步骤为：
 程序示例：
 1. untilN.sh
 对于输入的N值，计算从1～N的平方
+
+## break语句
+
+break用于结束while、for、until、select语句结构。
+break + 数字 , 指明要跳出的结构的层数。
+例程：
+1. break.sh
+根据输入的数字决定break在第几次循环退出。
+
+2. twoBreak.sh
+两层while循环，在外循环4次时break，在内循环3次时break
+
+3. twoBreak2.sh
+两层while循环，在内循环3次时直接break到外层循环
+
